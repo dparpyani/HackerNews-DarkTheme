@@ -1,10 +1,11 @@
-## Summary ##
+## Hacker News - Dark Theme
 
-A dark theme for [hacker news] (http://news.ycombinator.com). To **install** this theme:
+A userscript to install a dark theme for [hacker news] (http://news.ycombinator.com).
 
-* First, follow the instructions on [this page](http://userscripts.org/about/installing) to install Greasemonkey.
-* Then, go to the [userscript] (http://userscripts.org/scripts/show/161958) page, and click the
-  big green button `Install` on the top-right corner.
+### Installation
+
+1. Download [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox) or [Tampermonkey](http://tampermonkey.net/) (Chrome).
+2. Download the userscript from [here](./theme.user.js?raw=true).
 
 ## Screenshots ##
 Here are screeshots using this theme:
