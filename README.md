@@ -7,12 +7,12 @@ A userscript to install a dark theme for [hacker news] (http://news.ycombinator.
 1. Download [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox) or [Tampermonkey](http://tampermonkey.net/) (Chrome).
 2. Download the userscript from [here](./theme.user.js?raw=true).
 
-## Screenshots ##
+### Screenshots
 Here are screeshots using this theme:
 
-### Submissions ###
+#### Submissions
 ![Submissions](/screenshots/submissions.png)
 
-### Discussion ###
+#### Discussion
 ![Discussion](/screenshots/discussion.png)
 
