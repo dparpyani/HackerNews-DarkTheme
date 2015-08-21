@@ -54,6 +54,8 @@ function start() {
   jQuery('table, tr, td').children().css('color', config.fontColor);
   jQuery('font').css('color', config.fontColor);  
   jQuery('a:link').css('color', config.fontColor);
+  //// Comments
+  jQuery('.c00').css('color', config.fontColor); 
   
   jQuery('.comhead, .subtext').css('color', config.comheadDefaultColor);
   jQuery('.subtext > a').css('color', config.comheadLinksColor);
