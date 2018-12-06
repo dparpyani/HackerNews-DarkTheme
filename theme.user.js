@@ -3,6 +3,7 @@
 // @namespace      http://userscripts.org/users/509235
 // @description      A dark theme for Hacker News (YCombinator).
 // @include           https://news.ycombinator.com*
+// @require        https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 // @grant             none
 // @version          1.0
 // ==/UserScript==
@@ -100,8 +101,5 @@ function start() {
   jQuery('.pagetop:eq(0)').append(' | <a href="http://www.github.com/dparpyani" style="color: cyan;">Hi there :)</a>');
 }
 
-// Load jQuery, if the current web page does not have it
-if (typeof jQuery === 'undefined') {
-  loadScript('//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js', start);
-} else { start(); }
+start();
 
