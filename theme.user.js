@@ -93,12 +93,24 @@ function start() {
     myJQuery('.comhead > a').css('color', config.comheadLinksColor);
 
     //// Bar at top
-    myJQuery('tr:eq(0)').next().html(config.topBarText);
-    myJQuery('tr:eq(0)').next().css('background-color', config.topBarColor);
-  }  else {
+    if (myJQuery('tr:first-child').has('td[bgcolor="#000000"]').length) {
+        // Check for black bar
+        myJQuery('tr:eq(1)').next().html(config.topBarText);
+        myJQuery('tr:eq(1)').next().css('background-color', config.topBarColor);
+    } else {
+        myJQuery('tr:eq(0)').next().html(config.topBarText);
+        myJQuery('tr:eq(0)').next().css('background-color', config.topBarColor);
+    }
+  } else {
     //// Bar at top
-    myJQuery('tr:eq(0)').next().html(config.topBarText);
-    myJQuery('tr:eq(0)').next().css('background-color', config.topBarColor);
+    if (myJQuery('tr:first-child').has('td[bgcolor="#000000"]').length) {
+        // Check for black bar
+        myJQuery('tr:eq(1)').next().html(config.topBarText);
+        myJQuery('tr:eq(1)').next().css('background-color', config.topBarColor);
+    } else {
+        myJQuery('tr:eq(0)').next().html(config.topBarText);
+        myJQuery('tr:eq(0)').next().css('background-color', config.topBarColor);
+    }
   }
 
   //// Footer
