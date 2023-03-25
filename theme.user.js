@@ -5,7 +5,7 @@
 // @include           https://news.ycombinator.com*
 // @require           https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js
 // @grant             none
-// @version           1.1
+// @version           1.2
 // ==/UserScript==
 
 var loadScript = function (src, callback) {
