@@ -4,8 +4,8 @@ A userscript to install a dark theme for [hacker news] (http://news.ycombinator.
 
 ### Installation
 
-1. Download [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox) or [Tampermonkey](http://tampermonkey.net/) (Chrome).
-2. Download the userscript from [here](./theme.user.js?raw=true).
+1. Download [Tampermonkey](http://tampermonkey.net/) for your browser.
+2. Once Tampermonkey is installed, you can install the userscript by visiting [this page](./theme.user.js?raw=true) and clicking "install".
 
 ### Screenshots
 Here are screeshots using this theme:
